@@ -25,7 +25,7 @@ public class ItemMod {
 //    public static final RegistryObject<Item> CHAOS_GEM_ITEM = ITEMS.register("chaosgem",
 //            () -> CHAOS_GEM);
 //    public static final Item VOID_WATER_BUCKET= new BucketItem(ModsFluids.VOID_WATER_FLUID,
-//            new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1)).setRegistryName("void_water_bucket");
+//            new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1)).setRegistryName("void_water_bucket.json");
     public static final RegistryObject<Item> VOID_WATER_BUCKET = ITEMS.register("void_water_bucket",
         () -> new BucketItem(ModFluids.VOID_WATER,
                 new Item.Properties().tab(CreativeModeTab.TAB_MISC).craftRemainder(Items.BUCKET).stacksTo(1)));
