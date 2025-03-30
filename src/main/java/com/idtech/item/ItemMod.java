@@ -2,10 +2,7 @@ package com.idtech.item;
 
 import com.idtech.BaseMod;
 import com.idtech.fluid.ModFluids;
-import net.minecraft.world.item.BucketItem;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.item.*;
 
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -29,7 +26,6 @@ public class ItemMod {
     public static final RegistryObject<Item> VOID_WATER_BUCKET = ITEMS.register("void_water_bucket",
         () -> new BucketItem(ModFluids.VOID_WATER,
                 new Item.Properties().tab(CreativeModeTab.TAB_MISC).craftRemainder(Items.BUCKET).stacksTo(1)));
-    //FOODS
 
 
     public static void register(IEventBus eventBus) {
