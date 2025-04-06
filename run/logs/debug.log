@@ -1,206 +1,206 @@
-[09Feb2025 11:53:42.320] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\Fivet\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.4.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[09Feb2025 11:53:42.335] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[09Feb2025 11:53:42.439] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
-[09Feb2025 11:53:42.491] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
-[09Feb2025 11:53:42.544] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
-[09Feb2025 11:53:42.582] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
-[09Feb2025 11:53:42.628] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
-[09Feb2025 11:53:42.671] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
-[09Feb2025 11:53:42.673] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
-[09Feb2025 11:53:42.720] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
-[09Feb2025 11:53:42.722] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
-[09Feb2025 11:53:42.722] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
-[09Feb2025 11:53:42.731] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
-[09Feb2025 11:53:42.731] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
-[09Feb2025 11:53:42.732] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
-[09Feb2025 11:53:42.734] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
-[09Feb2025 11:53:42.737] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.3+6.0.3+master.039e4ea9
-[09Feb2025 11:53:42.741] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
-[09Feb2025 11:53:42.749] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
-[09Feb2025 11:53:42.750] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 6.0.0+6.0.0+master.42474703
-[09Feb2025 11:53:42.751] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
-[09Feb2025 11:53:42.757] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
-[09Feb2025 11:53:42.765] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
-[09Feb2025 11:53:42.800] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
-[09Feb2025 11:53:42.802] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
-[09Feb2025 11:53:42.854] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@2cbb3d47
-[09Feb2025 11:53:42.906] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Fivet/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23126!/ Service=ModLauncher Env=CLIENT
-[09Feb2025 11:53:42.914] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
-[09Feb2025 11:53:42.916] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[09Feb2025 11:53:42.919] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[09Feb2025 11:53:42.921] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[09Feb2025 11:53:42.922] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
-[09Feb2025 11:53:42.924] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
-[09Feb2025 11:53:42.929] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
-[09Feb2025 11:53:42.930] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
-[09Feb2025 11:53:42.931] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
-[09Feb2025 11:53:42.933] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run
-[09Feb2025 11:53:42.933] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run
-[09Feb2025 11:53:42.939] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\mods
-[09Feb2025 11:53:42.941] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\mods
-[09Feb2025 11:53:42.945] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config
-[09Feb2025 11:53:42.948] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config
-[09Feb2025 11:53:42.950] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config\fml.toml
-[09Feb2025 11:53:42.951] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
-[09Feb2025 11:53:43.094] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\defaultconfigs
-[09Feb2025 11:53:43.095] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
-[09Feb2025 11:53:43.115] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
-[09Feb2025 11:53:43.117] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
-[09Feb2025 11:53:43.221] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=43.4.0, mcVersion=1.19.2, mcpVersion=20220805.130853, forgeGroup=net.minecraftforge]
-[09Feb2025 11:53:43.225] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
-[09Feb2025 11:53:43.228] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
-[09Feb2025 11:53:43.231] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
-[09Feb2025 11:53:43.233] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
-[09Feb2025 11:53:43.234] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
-[09Feb2025 11:53:43.236] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
-[09Feb2025 11:53:43.236] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
-[09Feb2025 11:53:43.237] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
-[09Feb2025 11:53:43.278] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
-[09Feb2025 11:53:43.301] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
-[09Feb2025 11:53:43.311] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
-[09Feb2025 11:53:43.330] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates examplemod%%C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\resources\main;examplemod%%C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\classes\java\main from env
-[09Feb2025 11:53:43.333] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{examplemod=[C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\resources\main, C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\classes\java\main]}]
-[09Feb2025 11:53:44.454] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar with {minecraft} mods - versions {1.19.2}
-[09Feb2025 11:53:44.467] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Fivet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.4.0\2a7c572a7e3a470d7e6cc15e3a02eb8c1e9321bc\javafmllanguage-1.19.2-43.4.0.jar
-[09Feb2025 11:53:44.469] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fivet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.4.0\2a7c572a7e3a470d7e6cc15e3a02eb8c1e9321bc\javafmllanguage-1.19.2-43.4.0.jar is missing mods.toml file
-[09Feb2025 11:53:44.482] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Fivet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.4.0\bc0371d437577093930052ab00a6f0e910933a37\lowcodelanguage-1.19.2-43.4.0.jar
-[09Feb2025 11:53:44.482] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fivet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.4.0\bc0371d437577093930052ab00a6f0e910933a37\lowcodelanguage-1.19.2-43.4.0.jar is missing mods.toml file
-[09Feb2025 11:53:44.498] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Fivet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.4.0\463ccdc6c519611452d4ea97017881e1dce1af65\mclanguage-1.19.2-43.4.0.jar
-[09Feb2025 11:53:44.499] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fivet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.4.0\463ccdc6c519611452d4ea97017881e1dce1af65\mclanguage-1.19.2-43.4.0.jar is missing mods.toml file
-[09Feb2025 11:53:44.507] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Fivet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.4.0\6ed7b29f63c0a041a2e47ad6ca1ec9cb89ddeaf9\fmlcore-1.19.2-43.4.0.jar
-[09Feb2025 11:53:44.508] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fivet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.4.0\6ed7b29f63c0a041a2e47ad6ca1ec9cb89ddeaf9\fmlcore-1.19.2-43.4.0.jar is missing mods.toml file
-[09Feb2025 11:53:44.527] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\resources\main
-[09Feb2025 11:53:44.559] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {examplemod} mods - versions {1.0.0}
-[09Feb2025 11:53:44.577] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
-[09Feb2025 11:53:44.598] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {43.4.0}
-[09Feb2025 11:53:44.697] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar, it does not contain dependency information.
-[09Feb2025 11:53:44.702] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from , it does not contain dependency information.
-[09Feb2025 11:53:44.705] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from main, it does not contain dependency information.
-[09Feb2025 11:53:44.706] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mclanguage-1.19.2-43.4.0.jar, it does not contain dependency information.
-[09Feb2025 11:53:44.707] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from javafmllanguage-1.19.2-43.4.0.jar, it does not contain dependency information.
-[09Feb2025 11:53:44.709] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from fmlcore-1.19.2-43.4.0.jar, it does not contain dependency information.
-[09Feb2025 11:53:44.709] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from lowcodelanguage-1.19.2-43.4.0.jar, it does not contain dependency information.
-[09Feb2025 11:53:44.939] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[09Feb2025 11:53:44.952] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar with {minecraft} mods - versions {1.19.2}
-[09Feb2025 11:53:44.962] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Fivet\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.4.0_mapped_official_1.19.2\forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
-[09Feb2025 11:53:44.971] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
-[09Feb2025 11:53:44.973] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {43.4.0}
-[09Feb2025 11:53:44.974] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
-[09Feb2025 11:53:45.232] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
-[09Feb2025 11:53:45.234] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
-[09Feb2025 11:53:45.234] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
-[09Feb2025 11:53:45.235] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
-[09Feb2025 11:53:45.235] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
-[09Feb2025 11:53:45.235] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
-[09Feb2025 11:53:45.236] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\resources\main
-[09Feb2025 11:53:45.250] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {examplemod} mods - versions {1.0.0}
-[09Feb2025 11:53:45.250] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[43,)]]
-[09Feb2025 11:53:45.255] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
-[09Feb2025 11:53:45.339] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
-[09Feb2025 11:53:45.341] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
-[09Feb2025 11:53:45.346] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 43
-[09Feb2025 11:53:45.348] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 43
-[09Feb2025 11:53:45.386] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
-[09Feb2025 11:53:45.387] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
-[09Feb2025 11:53:45.387] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
-[09Feb2025 11:53:45.402] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 2 mod requirements (2 mandatory, 0 optional)
-[09Feb2025 11:53:45.406] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
-[09Feb2025 11:53:46.686] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 30289 method mappings from methods.csv
-[09Feb2025 11:53:46.775] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 28897 field mappings from fields.csv
-[09Feb2025 11:53:47.090] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
-[09Feb2025 11:53:47.093] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
-[09Feb2025 11:53:47.096] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
-[09Feb2025 11:53:47.098] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
-[09Feb2025 11:53:47.098] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
-[09Feb2025 11:53:47.100] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
-[09Feb2025 11:53:47.949] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[09Feb2025 11:53:47.950] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
-[09Feb2025 11:53:48.224] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[09Feb2025 11:53:48.224] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
-[09Feb2025 11:53:48.468] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
-[09Feb2025 11:53:48.537] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6e4c0d8c to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
-[09Feb2025 11:53:48.539] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5c5d6175 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
-[09Feb2025 11:53:48.540] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7544ac86 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
-[09Feb2025 11:53:48.541] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3b27b497 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
-[09Feb2025 11:53:48.542] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@b1534d3 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
-[09Feb2025 11:53:48.543] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3c74aa0d to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
-[09Feb2025 11:53:48.546] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6c841199 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
-[09Feb2025 11:53:48.548] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6a818392 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
-[09Feb2025 11:53:48.553] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@489091bd to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
-[09Feb2025 11:53:48.555] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
-[09Feb2025 11:53:50.167] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[09Feb2025 11:53:50.170] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[09Feb2025 11:53:50.172] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
-[09Feb2025 11:53:50.173] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
-[09Feb2025 11:53:50.174] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
-[09Feb2025 11:53:50.178] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
-[09Feb2025 11:53:50.180] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
-[09Feb2025 11:53:50.182] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
-[09Feb2025 11:53:50.190] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
-[09Feb2025 11:53:50.192] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
-[09Feb2025 11:53:50.193] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
-[09Feb2025 11:53:50.194] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
-[09Feb2025 11:53:50.194] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
-[09Feb2025 11:53:50.196] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
-[09Feb2025 11:53:50.197] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(examplemod)
-[09Feb2025 11:53:50.198] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(examplemod)
-[09Feb2025 11:53:50.199] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(examplemod)
-[09Feb2025 11:53:50.202] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(examplemod)
-[09Feb2025 11:53:50.203] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(examplemod)
-[09Feb2025 11:53:50.204] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(examplemod)]
-[09Feb2025 11:53:50.204] [main/DEBUG] [mixin/]: inject() running with 4 agents
-[09Feb2025 11:53:50.205] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
-[09Feb2025 11:53:50.206] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
-[09Feb2025 11:53:50.206] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
-[09Feb2025 11:53:50.207] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(examplemod)]
-[09Feb2025 11:53:50.210] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Fivet\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
-[09Feb2025 11:53:50.736] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
-[09Feb2025 11:53:50.743] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-[09Feb2025 11:53:50.851] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
-[09Feb2025 11:53:50.859] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
-[09Feb2025 11:53:50.862] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
-[09Feb2025 11:53:51.577] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@aaa0f76
-[09Feb2025 11:53:53.016] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@aaa0f76
-[09Feb2025 11:53:55.332] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
-[09Feb2025 11:53:55.733] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
-[09Feb2025 11:53:55.895] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
-[09Feb2025 11:53:56.124] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
-[09Feb2025 11:53:58.281] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
-[09Feb2025 11:54:02.033] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[09Feb2025 11:54:03.842] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
-[09Feb2025 11:54:05.301] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
-[09Feb2025 11:54:05.516] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
-[09Feb2025 11:54:07.056] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Fivet/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.4.0_mapped_official_1.19.2/forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/assets/.mcassetsroot' uses unexpected schema
-[09Feb2025 11:54:07.056] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Fivet/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.4.0_mapped_official_1.19.2/forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/data/.mcassetsroot' uses unexpected schema
-[09Feb2025 11:54:07.097] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09Feb2025 11:54:07.110] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[09Feb2025 11:54:07.547] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[09Feb2025 11:54:08.240] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5642
-[09Feb2025 11:54:08.317] [Render thread/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 4 threads for parallel mod-loading
-[09Feb2025 11:54:08.335] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@aaa0f76 - got cpw.mods.cl.ModuleClassLoader@34237b90
-[09Feb2025 11:54:08.335] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
-[09Feb2025 11:54:08.349] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@aaa0f76 - got cpw.mods.cl.ModuleClassLoader@34237b90
-[09Feb2025 11:54:08.350] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.idtech.BaseMod
-[09Feb2025 11:54:08.508] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 43.4 from cpw.mods.modlauncher.TransformingClassLoader@aaa0f76
-[09Feb2025 11:54:08.509] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 43.4.0
-[09Feb2025 11:54:08.510] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 43.4
-[09Feb2025 11:54:08.510] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
-[09Feb2025 11:54:08.512] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.19.2 from cpw.mods.modlauncher.TransformingClassLoader@aaa0f76
-[09Feb2025 11:54:08.512] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.19.2
-[09Feb2025 11:54:08.513] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20220805.130853
-[09Feb2025 11:54:08.514] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.0, for MC 1.19.2 with MCP 20220805.130853
-[09Feb2025 11:54:08.519] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.0 Initialized
-[09Feb2025 11:54:08.592] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for examplemod
-[09Feb2025 11:54:08.600] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.idtech.BaseMod$ClientModEvents to MOD
-[09Feb2025 11:54:08.604] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.idtech.block.BlockMod to FORGE
-[09Feb2025 11:54:08.605] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.idtech.item.ItemMod to FORGE
-[09Feb2025 11:54:08.692] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
-[09Feb2025 11:54:08.693] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
-[09Feb2025 11:54:08.695] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
-[09Feb2025 11:54:08.696] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
-[09Feb2025 11:54:08.696] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
-[09Feb2025 11:54:08.697] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
-[09Feb2025 11:54:08.698] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+[06Apr2025 14:14:27.949] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\Fivet\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.4.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[06Apr2025 14:14:27.964] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[06Apr2025 14:14:28.038] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[06Apr2025 14:14:28.078] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[06Apr2025 14:14:28.106] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[06Apr2025 14:14:28.143] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[06Apr2025 14:14:28.173] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[06Apr2025 14:14:28.210] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[06Apr2025 14:14:28.211] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[06Apr2025 14:14:28.213] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[06Apr2025 14:14:28.215] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[06Apr2025 14:14:28.217] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[06Apr2025 14:14:28.262] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[06Apr2025 14:14:28.274] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[06Apr2025 14:14:28.275] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[06Apr2025 14:14:28.277] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[06Apr2025 14:14:28.282] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.3+6.0.3+master.039e4ea9
+[06Apr2025 14:14:28.284] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[06Apr2025 14:14:28.289] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+[06Apr2025 14:14:28.308] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 6.0.0+6.0.0+master.42474703
+[06Apr2025 14:14:28.309] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[06Apr2025 14:14:28.323] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[06Apr2025 14:14:28.327] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[06Apr2025 14:14:28.372] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[06Apr2025 14:14:28.374] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[06Apr2025 14:14:28.462] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@2cbb3d47
+[06Apr2025 14:14:28.529] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Fivet/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23126!/ Service=ModLauncher Env=CLIENT
+[06Apr2025 14:14:28.562] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[06Apr2025 14:14:28.565] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[06Apr2025 14:14:28.568] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[06Apr2025 14:14:28.569] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[06Apr2025 14:14:28.572] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[06Apr2025 14:14:28.573] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[06Apr2025 14:14:28.588] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[06Apr2025 14:14:28.589] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[06Apr2025 14:14:28.590] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[06Apr2025 14:14:28.594] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run
+[06Apr2025 14:14:28.596] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run
+[06Apr2025 14:14:28.611] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\mods
+[06Apr2025 14:14:28.618] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\mods
+[06Apr2025 14:14:28.619] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config
+[06Apr2025 14:14:28.620] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config
+[06Apr2025 14:14:28.621] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config\fml.toml
+[06Apr2025 14:14:28.623] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[06Apr2025 14:14:28.779] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\defaultconfigs
+[06Apr2025 14:14:28.781] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[06Apr2025 14:14:28.789] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[06Apr2025 14:14:28.790] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
+[06Apr2025 14:14:28.881] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=43.4.0, mcVersion=1.19.2, mcpVersion=20220805.130853, forgeGroup=net.minecraftforge]
+[06Apr2025 14:14:28.886] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[06Apr2025 14:14:28.887] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[06Apr2025 14:14:28.889] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[06Apr2025 14:14:28.891] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[06Apr2025 14:14:28.893] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[06Apr2025 14:14:28.894] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[06Apr2025 14:14:28.894] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[06Apr2025 14:14:28.895] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[06Apr2025 14:14:29.000] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[06Apr2025 14:14:29.040] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[06Apr2025 14:14:29.043] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[06Apr2025 14:14:29.069] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates examplemod%%C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\resources\main;examplemod%%C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\classes\java\main from env
+[06Apr2025 14:14:29.073] [main/DEBUG] [net.minecraftforge.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{examplemod=[C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\resources\main, C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\classes\java\main]}]
+[06Apr2025 14:14:29.844] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar with {minecraft} mods - versions {1.19.2}
+[06Apr2025 14:14:29.857] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Fivet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.4.0\2a7c572a7e3a470d7e6cc15e3a02eb8c1e9321bc\javafmllanguage-1.19.2-43.4.0.jar
+[06Apr2025 14:14:29.859] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fivet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.4.0\2a7c572a7e3a470d7e6cc15e3a02eb8c1e9321bc\javafmllanguage-1.19.2-43.4.0.jar is missing mods.toml file
+[06Apr2025 14:14:29.868] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Fivet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.4.0\bc0371d437577093930052ab00a6f0e910933a37\lowcodelanguage-1.19.2-43.4.0.jar
+[06Apr2025 14:14:29.870] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fivet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.4.0\bc0371d437577093930052ab00a6f0e910933a37\lowcodelanguage-1.19.2-43.4.0.jar is missing mods.toml file
+[06Apr2025 14:14:29.878] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Fivet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.4.0\463ccdc6c519611452d4ea97017881e1dce1af65\mclanguage-1.19.2-43.4.0.jar
+[06Apr2025 14:14:29.879] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fivet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.4.0\463ccdc6c519611452d4ea97017881e1dce1af65\mclanguage-1.19.2-43.4.0.jar is missing mods.toml file
+[06Apr2025 14:14:29.897] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Fivet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.4.0\6ed7b29f63c0a041a2e47ad6ca1ec9cb89ddeaf9\fmlcore-1.19.2-43.4.0.jar
+[06Apr2025 14:14:29.897] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Fivet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.4.0\6ed7b29f63c0a041a2e47ad6ca1ec9cb89ddeaf9\fmlcore-1.19.2-43.4.0.jar is missing mods.toml file
+[06Apr2025 14:14:29.919] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\resources\main
+[06Apr2025 14:14:29.972] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {examplemod} mods - versions {1.0.0}
+[06Apr2025 14:14:29.979] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[06Apr2025 14:14:29.989] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {43.4.0}
+[06Apr2025 14:14:30.084] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar, it does not contain dependency information.
+[06Apr2025 14:14:30.085] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from , it does not contain dependency information.
+[06Apr2025 14:14:30.086] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from main, it does not contain dependency information.
+[06Apr2025 14:14:30.087] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mclanguage-1.19.2-43.4.0.jar, it does not contain dependency information.
+[06Apr2025 14:14:30.088] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from javafmllanguage-1.19.2-43.4.0.jar, it does not contain dependency information.
+[06Apr2025 14:14:30.088] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from fmlcore-1.19.2-43.4.0.jar, it does not contain dependency information.
+[06Apr2025 14:14:30.089] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from lowcodelanguage-1.19.2-43.4.0.jar, it does not contain dependency information.
+[06Apr2025 14:14:30.308] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[06Apr2025 14:14:30.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar with {minecraft} mods - versions {1.19.2}
+[06Apr2025 14:14:30.323] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Fivet\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.4.0_mapped_official_1.19.2\forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[06Apr2025 14:14:30.325] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[06Apr2025 14:14:30.327] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {forge} mods - versions {43.4.0}
+[06Apr2025 14:14:30.328] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[06Apr2025 14:14:30.487] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[06Apr2025 14:14:30.488] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[06Apr2025 14:14:30.489] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[06Apr2025 14:14:30.489] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[06Apr2025 14:14:30.489] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[06Apr2025 14:14:30.490] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[06Apr2025 14:14:30.490] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\resources\main
+[06Apr2025 14:14:30.499] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {examplemod} mods - versions {1.0.0}
+[06Apr2025 14:14:30.500] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[43,)]]
+[06Apr2025 14:14:30.505] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[06Apr2025 14:14:30.564] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[06Apr2025 14:14:30.567] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[06Apr2025 14:14:30.571] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 43
+[06Apr2025 14:14:30.572] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 43
+[06Apr2025 14:14:30.598] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[06Apr2025 14:14:30.598] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[06Apr2025 14:14:30.599] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[06Apr2025 14:14:30.605] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 2 mod requirements (2 mandatory, 0 optional)
+[06Apr2025 14:14:30.617] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[06Apr2025 14:14:32.000] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 30289 method mappings from methods.csv
+[06Apr2025 14:14:32.079] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 28897 field mappings from fields.csv
+[06Apr2025 14:14:32.285] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[06Apr2025 14:14:32.288] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[06Apr2025 14:14:32.289] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[06Apr2025 14:14:32.290] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[06Apr2025 14:14:32.290] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[06Apr2025 14:14:32.291] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[06Apr2025 14:14:33.050] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[06Apr2025 14:14:33.059] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[06Apr2025 14:14:33.269] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[06Apr2025 14:14:33.270] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[06Apr2025 14:14:33.473] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[06Apr2025 14:14:33.533] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7d3fb0ef to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[06Apr2025 14:14:33.546] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@59696551 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[06Apr2025 14:14:33.550] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@648d0e6d to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[06Apr2025 14:14:33.551] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@79e66b2f to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[06Apr2025 14:14:33.553] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@17273273 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[06Apr2025 14:14:33.554] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5f69e2b to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[06Apr2025 14:14:33.556] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@984169e to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[06Apr2025 14:14:33.557] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@43f1bb92 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[06Apr2025 14:14:33.558] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6d6bbd35 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[06Apr2025 14:14:33.560] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[06Apr2025 14:14:34.834] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[06Apr2025 14:14:34.835] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[06Apr2025 14:14:34.836] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[06Apr2025 14:14:34.837] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[06Apr2025 14:14:34.838] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[06Apr2025 14:14:34.839] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[06Apr2025 14:14:34.839] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[06Apr2025 14:14:34.842] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[06Apr2025 14:14:34.856] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[06Apr2025 14:14:34.858] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[06Apr2025 14:14:34.859] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[06Apr2025 14:14:34.860] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[06Apr2025 14:14:34.861] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[06Apr2025 14:14:34.868] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[06Apr2025 14:14:34.869] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(examplemod)
+[06Apr2025 14:14:34.871] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(examplemod)
+[06Apr2025 14:14:34.876] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(examplemod)
+[06Apr2025 14:14:34.878] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(examplemod)
+[06Apr2025 14:14:34.879] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(examplemod)
+[06Apr2025 14:14:34.881] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(examplemod)]
+[06Apr2025 14:14:34.881] [main/DEBUG] [mixin/]: inject() running with 4 agents
+[06Apr2025 14:14:34.883] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[06Apr2025 14:14:34.884] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[06Apr2025 14:14:34.885] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[06Apr2025 14:14:34.885] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(examplemod)]
+[06Apr2025 14:14:34.889] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Fivet\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
+[06Apr2025 14:14:35.552] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[06Apr2025 14:14:35.558] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[06Apr2025 14:14:35.644] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[06Apr2025 14:14:35.651] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[06Apr2025 14:14:35.651] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[06Apr2025 14:14:36.966] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@37b52340
+[06Apr2025 14:14:38.983] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@37b52340
+[06Apr2025 14:14:41.428] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[06Apr2025 14:14:41.886] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[06Apr2025 14:14:42.018] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[06Apr2025 14:14:42.223] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[06Apr2025 14:14:44.070] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[06Apr2025 14:14:48.449] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[06Apr2025 14:14:50.245] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[06Apr2025 14:14:51.392] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[06Apr2025 14:14:51.597] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[06Apr2025 14:14:54.544] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Fivet/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.4.0_mapped_official_1.19.2/forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/assets/.mcassetsroot' uses unexpected schema
+[06Apr2025 14:14:54.545] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Fivet/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.4.0_mapped_official_1.19.2/forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/data/.mcassetsroot' uses unexpected schema
+[06Apr2025 14:14:54.566] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06Apr2025 14:14:54.573] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[06Apr2025 14:14:55.048] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[06Apr2025 14:14:56.051] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5642
+[06Apr2025 14:14:56.097] [Render thread/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 4 threads for parallel mod-loading
+[06Apr2025 14:14:56.118] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@37b52340 - got cpw.mods.cl.ModuleClassLoader@34237b90
+[06Apr2025 14:14:56.119] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[06Apr2025 14:14:56.131] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@37b52340 - got cpw.mods.cl.ModuleClassLoader@34237b90
+[06Apr2025 14:14:56.131] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.idtech.BaseMod
+[06Apr2025 14:14:56.244] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 43.4 from cpw.mods.modlauncher.TransformingClassLoader@37b52340
+[06Apr2025 14:14:56.245] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 43.4.0
+[06Apr2025 14:14:56.246] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 43.4
+[06Apr2025 14:14:56.246] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[06Apr2025 14:14:56.248] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.19.2 from cpw.mods.modlauncher.TransformingClassLoader@37b52340
+[06Apr2025 14:14:56.248] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.19.2
+[06Apr2025 14:14:56.249] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20220805.130853
+[06Apr2025 14:14:56.249] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.0, for MC 1.19.2 with MCP 20220805.130853
+[06Apr2025 14:14:56.253] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.0 Initialized
+[06Apr2025 14:14:56.450] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for examplemod
+[06Apr2025 14:14:56.454] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[06Apr2025 14:14:56.455] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[06Apr2025 14:14:56.456] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[06Apr2025 14:14:56.457] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.idtech.BaseMod$ClientModEvents to MOD
+[06Apr2025 14:14:56.462] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.idtech.block.BlockMod to FORGE
+[06Apr2025 14:14:56.462] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.idtech.item.ItemMod to FORGE
+[06Apr2025 14:14:56.479] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[06Apr2025 14:14:56.483] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[06Apr2025 14:14:56.483] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[06Apr2025 14:14:56.486] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
 java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
 	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:287) ~[netty-common-4.1.77.Final.jar%23146!/:4.1.77.Final]
@@ -227,8 +227,8 @@ java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[09Feb2025 11:54:08.701] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
-[09Feb2025 11:54:08.704] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+[06Apr2025 14:14:56.489] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[06Apr2025 14:14:56.493] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
 java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
 	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
 	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
@@ -257,46 +257,46 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[09Feb2025 11:54:08.706] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
-[09Feb2025 11:54:08.707] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
-[09Feb2025 11:54:08.708] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 2118123520 bytes (maybe)
-[09Feb2025 11:54:08.726] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\Fivet\AppData\Local\Temp (java.io.tmpdir)
-[09Feb2025 11:54:08.727] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
-[09Feb2025 11:54:08.728] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
-[09Feb2025 11:54:08.729] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
-[09Feb2025 11:54:08.730] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
-[09Feb2025 11:54:08.732] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
-[09Feb2025 11:54:08.732] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
-[09Feb2025 11:54:08.789] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Loading Network data for FML net version: FML3
-[09Feb2025 11:54:08.891] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
-[09Feb2025 11:54:08.891] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
-[09Feb2025 11:54:08.892] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
-[09Feb2025 11:54:08.946] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
-[09Feb2025 11:54:08.947] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
-[09Feb2025 11:54:08.951] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$ColorRegisterHandler to MOD
-[09Feb2025 11:54:08.960] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.data.ModelDataManager to FORGE
-[09Feb2025 11:54:08.965] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ForgeHooksClient$ClientEvents to MOD
-[09Feb2025 11:54:09.001] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ClientForgeMod to MOD
-[09Feb2025 11:54:09.107] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
-[09Feb2025 11:54:09.131] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
-[09Feb2025 11:54:09.131] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
-[09Feb2025 11:54:09.131] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
-[09Feb2025 11:54:09.634] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file /
-[09Feb2025 11:54:09.636] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:examplemod for mod file C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\resources\main
-[09Feb2025 11:54:11.154] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [examplemod]
-[09Feb2025 11:54:11.495] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[09Feb2025 11:54:11.814] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
-[09Feb2025 11:54:11.817] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config\forge-client.toml
-[09Feb2025 11:54:11.840] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config\forge-client.toml
-[09Feb2025 11:54:11.841] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config\forge-client.toml for changes
-[09Feb2025 11:54:11.846] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
-[09Feb2025 11:54:11.848] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
-[09Feb2025 11:54:11.848] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config\forge-common.toml
-[09Feb2025 11:54:11.849] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config\forge-common.toml
-[09Feb2025 11:54:11.849] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config\forge-common.toml for changes
-[09Feb2025 11:54:11.850] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-common.toml
-[09Feb2025 11:54:13.616] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[09Feb2025 11:54:15.459] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+[06Apr2025 14:14:56.495] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[06Apr2025 14:14:56.496] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[06Apr2025 14:14:56.497] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 2118123520 bytes (maybe)
+[06Apr2025 14:14:56.498] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\Fivet\AppData\Local\Temp (java.io.tmpdir)
+[06Apr2025 14:14:56.498] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[06Apr2025 14:14:56.502] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[06Apr2025 14:14:56.503] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[06Apr2025 14:14:56.503] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[06Apr2025 14:14:56.505] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[06Apr2025 14:14:56.505] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[06Apr2025 14:14:56.562] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Loading Network data for FML net version: FML3
+[06Apr2025 14:14:56.631] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[06Apr2025 14:14:56.632] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[06Apr2025 14:14:56.632] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
+[06Apr2025 14:14:56.704] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[06Apr2025 14:14:56.707] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[06Apr2025 14:14:56.712] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$ColorRegisterHandler to MOD
+[06Apr2025 14:14:56.721] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.data.ModelDataManager to FORGE
+[06Apr2025 14:14:56.726] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ForgeHooksClient$ClientEvents to MOD
+[06Apr2025 14:14:56.742] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.ClientForgeMod to MOD
+[06Apr2025 14:14:56.846] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+[06Apr2025 14:14:56.848] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+[06Apr2025 14:14:56.848] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+[06Apr2025 14:14:56.848] [Render thread/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+[06Apr2025 14:14:57.384] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file /
+[06Apr2025 14:14:57.405] [Render thread/DEBUG] [net.minecraftforge.client.loading.ClientModLoader/CORE]: Generating PackInfo named mod:examplemod for mod file C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\resources\main
+[06Apr2025 14:14:59.470] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [examplemod]
+[06Apr2025 14:14:59.829] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[06Apr2025 14:14:59.956] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[06Apr2025 14:14:59.958] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config\forge-client.toml
+[06Apr2025 14:14:59.980] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config\forge-client.toml
+[06Apr2025 14:14:59.981] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config\forge-client.toml for changes
+[06Apr2025 14:14:59.985] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
+[06Apr2025 14:14:59.987] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[06Apr2025 14:14:59.987] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config\forge-common.toml
+[06Apr2025 14:15:00.006] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config\forge-common.toml
+[06Apr2025 14:15:00.007] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\run\config\forge-common.toml for changes
+[06Apr2025 14:15:00.007] [modloading-worker-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-common.toml
+[06Apr2025 14:15:03.934] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[06Apr2025 14:15:05.806] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
 {
   "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
   "promos": {
@@ -373,467 +373,133 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
     "1.18.1-latest": "39.1.2",
     "1.18.1-recommended": "39.1.0",
     "1.18.2-recommended": "40.3.0",
-    "1.18.2-latest": "40.3.3",
+    "1.18.2-latest": "40.3.9",
     "1.19-latest": "41.1.0",
     "1.19-recommended": "41.1.0",
     "1.19.1-latest": "42.0.9",
-    "1.19.2-recommended": "43.4.0",
-    "1.19.2-latest": "43.4.16",
+    "1.19.2-recommended": "43.5.0",
+    "1.19.2-latest": "43.5.0",
     "1.19.3-latest": "44.1.23",
     "1.19.3-recommended": "44.1.0",
-    "1.19.4-recommended": "45.3.0",
-    "1.19.4-latest": "45.3.20",
+    "1.19.4-recommended": "45.4.0",
+    "1.19.4-latest": "45.4.0",
     "1.20-latest": "46.0.14",
-    "1.20.1-recommended": "47.3.0",
-    "1.20.1-latest": "47.3.27",
+    "1.20.1-recommended": "47.4.0",
+    "1.20.1-latest": "47.4.0",
     "1.20.2-latest": "48.1.0",
     "1.20.2-recommended": "48.1.0",
     "1.20.3-latest": "49.0.2",
-    "1.20.4-latest": "49.1.29",
-    "1.20.4-recommended": "49.1.0",
-    "1.20.6-latest": "50.1.39",
-    "1.20.6-recommended": "50.1.0",
+    "1.20.4-latest": "49.2.0",
+    "1.20.4-recommended": "49.2.0",
+    "1.20.6-latest": "50.2.0",
+    "1.20.6-recommended": "50.2.0",
     "1.21-latest": "51.0.33",
-    "1.21.1-latest": "52.0.47",
-    "1.21.3-latest": "53.0.44",
-    "1.21.4-latest": "54.0.26"
+    "1.21.1-latest": "52.1.0",
+    "1.21.1-recommended": "52.1.0",
+    "1.21.3-latest": "53.1.0",
+    "1.21.3-recommended": "53.1.0",
+    "1.21.4-latest": "54.1.3",
+    "1.21.4-recommended": "54.1.0",
+    "1.21.5-latest": "55.0.4"
   }
 }
-[09Feb2025 11:54:15.462] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 43.4.0 Target: null
-[09Feb2025 11:54:23.530] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=0'
-[09Feb2025 11:54:23.532] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=15'
-[09Feb2025 11:54:23.532] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=14'
-[09Feb2025 11:54:23.533] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=4'
-[09Feb2025 11:54:23.533] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=3'
-[09Feb2025 11:54:23.533] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=2'
-[09Feb2025 11:54:23.534] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=1'
-[09Feb2025 11:54:23.534] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=8'
-[09Feb2025 11:54:23.534] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=7'
-[09Feb2025 11:54:23.535] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=6'
-[09Feb2025 11:54:23.535] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=5'
-[09Feb2025 11:54:23.535] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=13'
-[09Feb2025 11:54:23.535] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=12'
-[09Feb2025 11:54:23.535] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=11'
-[09Feb2025 11:54:23.536] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=9'
-[09Feb2025 11:54:23.536] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=10'
-[09Feb2025 11:54:26.425] [Worker-Main-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'examplemod:void_water#inventory' referenced from: examplemod:void_water#inventory: java.io.FileNotFoundException: examplemod:models/item/void_water.json
-[09Feb2025 11:54:33.481] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5879
-[09Feb2025 11:54:33.519] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[09Feb2025 11:54:33.519] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[09Feb2025 11:54:33.613] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (High Definition Audio Device)
-[09Feb2025 11:54:33.615] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[09Feb2025 11:54:33.944] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[09Feb2025 11:54:33.997] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[09Feb2025 11:54:33.999] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[09Feb2025 11:54:34.003] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[09Feb2025 11:54:34.007] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[09Feb2025 11:54:34.009] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[09Feb2025 11:54:34.011] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[09Feb2025 11:54:36.375] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[09Feb2025 11:54:36.793] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[09Feb2025 11:54:36.796] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[09Feb2025 11:54:36.798] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[09Feb2025 11:54:37.172] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[09Feb2025 11:54:42.518] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /
-[09Feb2025 11:54:42.519] [Render thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:examplemod for mod file C:\Users\Fivet\Documents\iD tech\minecraft-mod-fluids\build\resources\main
-[09Feb2025 11:54:45.980] [Worker-Main-5/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [examplemod:void_water_flowing (from main), examplemod:void_water_fluid (from main)] as it is missing following references: examplemod:void_water_flowing (from main), 
-	examplemod:void_water_fluid (from main)
-[09Feb2025 11:54:48.102] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe examplemod:shapeless_crafting
-com.google.gson.JsonSyntaxException: Unknown item 'examplemod:tntcannon'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:154) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23187%23194!/:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:180) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23187%23194!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson(ShapedRecipe.java:269) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:87) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:77) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23187%23194!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:130) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:109) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:148) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:136) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadLevel(WorldOpenFlows.java:58) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:586) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:448) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:375) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:336) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:28) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:88) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:522) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:85) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:185) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:184) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar%23168!/:build 7]
-	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar%23174!/:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar%23168!/:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:168) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:337) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1143) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:700) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.main.Main.run(Main.java:212) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.2-43.4.0.jar%23101!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23114!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23114!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23114!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23114!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23114!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23114!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23114!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[09Feb2025 11:54:48.110] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[09Feb2025 11:54:49.532] [Render thread/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table examplemod:blocks/castlewall
-com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'examplemod:castlewall'
-	at net.minecraft.util.GsonHelper.lambda$convertToItem$0(GsonHelper.java:107) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.util.GsonHelper.convertToItem(GsonHelper.java:106) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.util.GsonHelper.getAsItem(GsonHelper.java:116) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.deserialize(LootItem.java:51) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.deserialize(LootItem.java:39) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.deserializeCustom(LootPoolSingletonContainer.java:138) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.deserializeCustom(LootPoolSingletonContainer.java:118) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:83) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:72) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:96) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%23154!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%23154!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%23154!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%23154!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%23154!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%23154!/:?]
-	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:374) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:382) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%23154!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%23154!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%23154!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%23154!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%23154!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%23154!/:?]
-	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:374) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:391) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:256) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:253) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%23154!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%23154!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%23154!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%23154!/:?]
-	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:929) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23187%23194!/:?]
-	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootTables.apply(LootTables.java:38) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.world.level.storage.loot.LootTables.apply(LootTables.java:16) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:130) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:109) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:148) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:136) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadLevel(WorldOpenFlows.java:58) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:586) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:448) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:375) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:336) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:28) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:88) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:522) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:85) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:185) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:184) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar%23168!/:build 7]
-	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar%23174!/:build 7]
-	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403) ~[lwjgl-glfw-3.3.1.jar%23168!/:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:168) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:337) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1143) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:700) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.main.Main.run(Main.java:212) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.2-43.4.0_mapped_official_1.19.2-recomp.jar%23188!/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.2-43.4.0.jar%23101!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23114!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23114!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23114!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23114!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23114!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23114!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23114!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[09Feb2025 11:54:50.836] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
-[09Feb2025 11:54:51.761] [Render thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
-[09Feb2025 11:54:51.772] [Render thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
-[09Feb2025 11:54:51.898] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
-[09Feb2025 11:54:51.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[09Feb2025 11:54:52.072] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\saves\New World\serverconfig
-[09Feb2025 11:54:52.072] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
-[09Feb2025 11:54:52.073] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\saves\New World\serverconfig\forge-server.toml
-[09Feb2025 11:54:52.078] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\saves\New World\serverconfig\forge-server.toml
-[09Feb2025 11:54:52.082] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\saves\New World\serverconfig\forge-server.toml for changes
-[09Feb2025 11:54:52.083] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
-[09Feb2025 11:54:53.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[09Feb2025 11:55:23.015] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.015] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.016] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.016] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.016] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.017] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.017] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.017] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.017] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.017] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.018] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.018] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.018] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.018] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.018] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.019] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.019] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.019] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.019] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.020] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.020] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.020] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.020] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.020] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.020] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.021] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.021] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.022] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.022] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.022] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.022] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.022] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.023] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.023] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.023] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.023] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.023] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.023] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.024] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.024] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.024] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.024] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.024] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.033] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.034] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.034] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.034] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.034] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.035] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.035] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.035] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.035] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.036] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.036] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.036] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.036] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.036] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.036] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.037] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.037] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.296] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:23.609] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09Feb2025 11:55:24.062] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[09Feb2025 11:55:24.772] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[09Feb2025 11:55:25.783] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[09Feb2025 11:55:25.792] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 32743 ms
-[09Feb2025 11:55:26.008] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[09Feb2025 11:55:26.015] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[09Feb2025 11:55:26.172] [Render thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 8
-[09Feb2025 11:55:26.284] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-[09Feb2025 11:55:26.284] [Render thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-[09Feb2025 11:55:26.306] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
-[09Feb2025 11:55:26.306] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
-[09Feb2025 11:55:26.322] [Render thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
-[09Feb2025 11:55:26.418] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 10856 (auto-detected)
-[09Feb2025 11:55:26.422] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[09Feb2025 11:55:26.423] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
-[09Feb2025 11:55:26.423] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: false
-[09Feb2025 11:55:26.491] [Render thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-[09Feb2025 11:55:26.502] [Render thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-[09Feb2025 11:55:26.630] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 60:67:20:ff:fe:96:56:c2 (auto-detected)
-[09Feb2025 11:55:26.830] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 8
-[09Feb2025 11:55:26.830] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 8
-[09Feb2025 11:55:26.830] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
-[09Feb2025 11:55:26.831] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
-[09Feb2025 11:55:26.831] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
-[09Feb2025 11:55:26.832] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
-[09Feb2025 11:55:26.832] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
-[09Feb2025 11:55:26.832] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-[09Feb2025 11:55:26.832] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
-[09Feb2025 11:55:26.832] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-[09Feb2025 11:55:26.832] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
-[09Feb2025 11:55:26.832] [Render thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-[09Feb2025 11:55:26.859] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
-[09Feb2025 11:55:26.860] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
-[09Feb2025 11:55:26.860] [Render thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
-[09Feb2025 11:55:27.227] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting local connection.
-[09Feb2025 11:55:27.683] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
-[09Feb2025 11:55:27.683] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
-[09Feb2025 11:55:27.685] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
-[09Feb2025 11:55:27.685] [Netty Local Client IO #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
-[09Feb2025 11:55:27.733] [Netty Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
-[09Feb2025 11:55:27.736] [Netty Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
-[09Feb2025 11:55:27.738] [Netty Server IO #1/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1e59aefc
-[09Feb2025 11:55:27.755] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting local connection.
-[09Feb2025 11:55:27.840] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
-[09Feb2025 11:55:27.873] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
-[09Feb2025 11:55:27.890] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
-[09Feb2025 11:55:27.891] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
-[09Feb2025 11:55:27.893] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Logging into server with mod list [minecraft, forge, examplemod]
-[09Feb2025 11:55:27.896] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from server : ACCEPTED
-[09Feb2025 11:55:27.896] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from server : ACCEPTED
-[09Feb2025 11:55:27.896] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from server : ACCEPTED
-[09Feb2025 11:55:27.898] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from server : ACCEPTED
-[09Feb2025 11:55:27.898] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from server : ACCEPTED
-[09Feb2025 11:55:27.898] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from server : ACCEPTED
-[09Feb2025 11:55:27.898] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from server : ACCEPTED
-[09Feb2025 11:55:27.899] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from server
-[09Feb2025 11:55:27.901] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 1
-[09Feb2025 11:55:27.902] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
-[09Feb2025 11:55:27.903] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
-[09Feb2025 11:55:27.904] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, forge, examplemod]
-[09Feb2025 11:55:27.904] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted server connection
-[09Feb2025 11:55:27.904] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
-[09Feb2025 11:55:27.905] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
-[09Feb2025 11:55:27.905] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
-[09Feb2025 11:55:27.905] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
-[09Feb2025 11:55:27.905] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
-[09Feb2025 11:55:27.905] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
-[09Feb2025 11:55:27.905] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
-[09Feb2025 11:55:27.905] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
-[09Feb2025 11:55:27.906] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
-[09Feb2025 11:55:27.965] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 2
-[09Feb2025 11:55:27.966] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
-[09Feb2025 11:55:27.966] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received config sync from server
-[09Feb2025 11:55:27.966] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 2
-[09Feb2025 11:55:27.967] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
-[09Feb2025 11:55:27.968] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
-[09Feb2025 11:55:27.969] [Netty Server IO #1/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
-[09Feb2025 11:55:28.028] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
-[09Feb2025 11:55:28.094] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[09Feb2025 11:55:28.292] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@22037608
-[09Feb2025 11:55:28.349] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:9db4dd7a] logged in with entity id 167 at (19.36759945546926, 75.0, 35.95365964075529)
-[09Feb2025 11:55:28.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[09Feb2025 11:55:29.084] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2598ms or 51 ticks behind
-[09Feb2025 11:55:32.317] [Render thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0x9bbe63b429019f71
-[09Feb2025 11:55:33.093] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
-[09Feb2025 11:55:59.589] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[09Feb2025 11:55:59.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[09Feb2025 11:55:59.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[09Feb2025 11:55:59.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[09Feb2025 11:55:59.690] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
-[09Feb2025 11:55:59.698] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
-[09Feb2025 11:56:12.186] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[09Feb2025 11:56:12.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[09Feb2025 11:56:12.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[09Feb2025 11:56:12.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[09Feb2025 11:56:12.250] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
-[09Feb2025 11:56:12.258] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
-[09Feb2025 11:56:14.552] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[09Feb2025 11:56:14.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[09Feb2025 11:56:14.595] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[09Feb2025 11:56:14.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[09Feb2025 11:56:14.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[09Feb2025 11:56:14.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[09Feb2025 11:56:17.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[09Feb2025 11:56:18.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[09Feb2025 11:56:18.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[09Feb2025 11:56:18.007] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save New World
-[09Feb2025 11:56:18.014] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete New World
-[09Feb2025 11:56:18.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[09Feb2025 11:56:18.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09Feb2025 11:56:18.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09Feb2025 11:56:18.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[09Feb2025 11:56:19.073] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\saves\New World\serverconfig
-[09Feb2025 11:56:19.073] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
-[09Feb2025 11:56:22.368] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[09Feb2025 11:56:22.480] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.481] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.481] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.482] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.482] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.482] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.483] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.483] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.483] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.483] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.483] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.484] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.484] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.484] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.484] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.484] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.484] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.485] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.485] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.485] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.485] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.485] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.485] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.485] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.486] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.486] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.486] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.486] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.486] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.486] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.487] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.487] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.487] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.487] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.487] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.488] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.489] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.490] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.492] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.492] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.492] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.492] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.492] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.493] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.493] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.493] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.493] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.493] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.493] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.493] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.494] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.494] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.494] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
-[09Feb2025 11:56:22.494] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:15:05.811] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.0 Target: 43.5.0
+[06Apr2025 14:15:12.549] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=0'
+[06Apr2025 14:15:12.550] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=15'
+[06Apr2025 14:15:12.551] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=14'
+[06Apr2025 14:15:12.551] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=4'
+[06Apr2025 14:15:12.552] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=3'
+[06Apr2025 14:15:12.553] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=2'
+[06Apr2025 14:15:12.553] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=1'
+[06Apr2025 14:15:12.554] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=8'
+[06Apr2025 14:15:12.555] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=7'
+[06Apr2025 14:15:12.555] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=6'
+[06Apr2025 14:15:12.555] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=5'
+[06Apr2025 14:15:12.555] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=13'
+[06Apr2025 14:15:12.556] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=12'
+[06Apr2025 14:15:12.556] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=11'
+[06Apr2025 14:15:12.556] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=9'
+[06Apr2025 14:15:12.556] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/void_water.json' missing model for variant: 'examplemod:void_water#level=10'
+[06Apr2025 14:15:15.348] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'examplemod:void_water#inventory' referenced from: examplemod:void_water#inventory: java.io.FileNotFoundException: examplemod:models/item/void_water.json
+[06Apr2025 14:15:25.166] [Render thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 5879
+[06Apr2025 14:15:25.269] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[06Apr2025 14:15:25.270] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[06Apr2025 14:15:25.409] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (High Definition Audio Device)
+[06Apr2025 14:15:25.413] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[06Apr2025 14:15:25.921] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[06Apr2025 14:15:25.977] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[06Apr2025 14:15:25.978] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[06Apr2025 14:15:25.982] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[06Apr2025 14:15:25.987] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[06Apr2025 14:15:25.989] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[06Apr2025 14:15:25.993] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[06Apr2025 14:15:28.234] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[06Apr2025 14:15:28.697] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[06Apr2025 14:15:28.702] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[06Apr2025 14:15:28.704] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[06Apr2025 14:15:29.135] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[06Apr2025 14:16:05.930] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[06Apr2025 14:16:06.013] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.014] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.014] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.014] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.015] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.015] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.015] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.015] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.015] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.016] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.016] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.016] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.016] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.016] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.017] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.017] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.017] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.017] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.017] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.018] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.018] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.018] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.018] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.018] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.019] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.019] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.019] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.019] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.019] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.019] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.019] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.019] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.019] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.020] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.020] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.020] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.020] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.020] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.020] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.020] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.021] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.021] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.021] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.021] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.021] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.022] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.022] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.022] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.023] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.023] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.025] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.025] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.025] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.025] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.025] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.025] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.025] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.026] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.026] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.027] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.027] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.027] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.027] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'
+[06Apr2025 14:16:06.027] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL error GL_INVALID_VALUE'

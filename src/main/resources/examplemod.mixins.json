@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.idtech.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "examplemod.mixins.json",
+  "mixins": [
+    "MixinItemEntity"
+  ],
+  "client": [
+
+  ],
+  "minVersion": "0.8"
+}
